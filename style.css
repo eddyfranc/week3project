@@ -12,13 +12,30 @@ header nav ul {
     padding: 0;
     display: flex;
     justify-content:flex-end;
+    text-decoration:solid;
     
 }
+
+header{
+position:fixed;
+top:0;
+ width: 100%;
+}
+
 li:hover{
         background-color: green;
         font-size: 18px;
 
 }
+
+
+
+
+
+
+
+
+
 
 /* herosection */
 img {
@@ -28,29 +45,23 @@ img {
     object-fit: cover; 
 }
 
-
-
-.p{
+/* .p{
     margin:0px;
     padding:0px;
     font-size:10px;
 }
 
 
-
-
 a {
     text-decoration: none;
     color: inherit;
-}
-
+} */
 
 header {
     background-color: #333;
     color: #fff;
     padding: 10px 0;
 }
-
 
 
 nav ul li {
@@ -61,7 +72,6 @@ nav ul li a {
     color: #fff;
     font-weight: bold;
 }
-
 
 .hero {
     background-color: #4CAF50;
@@ -79,8 +89,16 @@ nav ul li a {
 
 .hero-content p {
     font-size: 1.2em;
+    color: white;
+    text-align: left;
+    text-align: justify;
     
 }
+.intro{
+    color: rgb(6, 105, 6);
+
+}
+
 
 /* About section */
 .about {
@@ -141,11 +159,6 @@ nav ul li a {
 }
 
 
-
-
-
-
-
 /* contact section */
 .contact {
     padding: 50px 20px;
@@ -185,10 +198,11 @@ footer nav ul{
     background-color: #333;
     color: white;
     text-align: center;
-    padding: 20px;
+    padding: 80px;
     margin-top: 50px;
     display: flex;
     list-style: none;
     justify-content:space-evenly;
+
     
 }

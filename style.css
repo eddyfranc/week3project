@@ -9,13 +9,20 @@ body {
 /* Navbar */
 header nav ul {
     list-style: none;
-    padding: 0;
+    padding: 0px;
     display: flex;
     justify-content:flex-end;
-    text-decoration:solid;
-    
+    text-decoration:none;
 }
-
+    
+nav ul li a {
+        text-decoration: none; 
+        color: white; 
+        font-weight: bold; 
+        padding: 4px;
+        margin: 0px;
+    }
+    
 header{
 position:fixed;
 top:0;
@@ -23,25 +30,18 @@ top:0;
 }
 
 li:hover{
-        background-color: green;
+        background-color: brown;
         font-size: 18px;
+        margin: 0px;
+        padding: 0px;
 
 }
 
-
-
-
-
-
-
-
-
-
 /* herosection */
 img {
-    width: 150px;
-    height: 150px;
-    border-radius: 80%;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
     object-fit: cover; 
 }
 
@@ -74,7 +74,7 @@ nav ul li a {
 }
 
 .hero {
-    background-color: #4CAF50;
+    background-color:rgb(232, 110, 110);
     color: white;
     text-align: center;
     padding: 100px 20px;
@@ -95,7 +95,7 @@ nav ul li a {
     
 }
 .intro{
-    color: rgb(6, 105, 6);
+    color: rgb(99, 6, 6);
 
 }
 
@@ -115,6 +115,12 @@ nav ul li a {
 .about-content h2 {
     font-size: 2.5em;
     margin-bottom: 20px;
+}
+
+.p1::after {
+    content: "😀😀😀"; 
+    font-size: 1.5em;  
+    margin-left: 10px; 
 }
 
 
@@ -187,7 +193,7 @@ nav ul li a {
 
 .contact form button {
     padding: 10px 20px;
-    background-color: #4CAF50;
+    background-color: rgb(232, 110, 110);
     color: white;
     border: none;
     border-radius: 5px;
@@ -202,7 +208,15 @@ footer nav ul{
     margin-top: 50px;
     display: flex;
     list-style: none;
-    justify-content:space-evenly;
+    justify-content:center;
 
     
+}
+
+nav ul li {
+    text-decoration: none; 
+    color: white; 
+    font-weight: bold; 
+    padding: 4px;
+    margin: 4px;
 }

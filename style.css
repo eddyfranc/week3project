@@ -204,7 +204,7 @@ footer nav ul{
     background-color: #333;
     color: white;
     text-align: center;
-    padding: 80px;
+    padding: 100px;
     margin-top: 50px;
     display: flex;
     list-style: none;
@@ -213,10 +213,10 @@ footer nav ul{
     
 }
 
-nav ul li {
+footer nav ul li {
     text-decoration: none; 
     color: white; 
     font-weight: bold; 
     padding: 4px;
-    margin: 4px;
+    margin: 0px;
 }

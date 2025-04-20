@@ -5,18 +5,9 @@ body {
     box-sizing: border-box;
 }
 /* making my website responsive */
-/* @media(max-width:600px){
+@media(max-width:600px){
    body{font-size:12px;}
-} */ */
-/* @media (max-width: 768px) {
-    nav ul{
-        display: none;
-        width: 100%;
-        flex-direction:row;
-        text-align:center;
-        margin-top: 20px;
-    }
-}
+} 
 
 /* Navbar */
 header nav ul {
